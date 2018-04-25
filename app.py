@@ -26,8 +26,8 @@ def index():
 
 @app.route('/send')
 def send():
-  gmail = GMail('20130075@student.hust.edu.vn', 'tuananh1k95')
-  msg = Message('message', to='20130075@student.hust.edu.vn', text="Hello world")
+  gmail = GMail('quy.dc98@gmail.com', 'quy_cvp98')
+  msg = Message('message', to='skyvp98@gmail.com', text="Hello world")
 
   gmail.send(msg)
 
