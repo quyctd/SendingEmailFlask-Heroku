@@ -22,3 +22,6 @@ gunicorn
 addict
 shortuuid
 gmail
+pybase64
+Flask-Mail
+Pillow
